@@ -1,0 +1,99 @@
+[gd_scene load_steps=8 format=2]
+
+[ext_resource path="res://game_intro.gd" type="Script" id=1]
+[ext_resource path="res://cooltext481944558901200.png" type="Texture" id=2]
+[ext_resource path="res://cooltext482011273548787.png" type="Texture" id=3]
+[ext_resource path="res://image-removebg-preview.png" type="Texture" id=4]
+[ext_resource path="res://y.jpg" type="Texture" id=5]
+[ext_resource path="res://darcy.png" type="Texture" id=6]
+[ext_resource path="res://image-removebg-preview (1).png" type="Texture" id=7]
+
+[node name="Control" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_top = -10.0
+margin_right = 13.0
+script = ExtResource( 1 )
+
+[node name="background" type="Sprite" parent="."]
+position = Vector2( 469, -179 )
+scale = Vector2( 1.32201, 1.0267 )
+texture = ExtResource( 5 )
+offset = Vector2( -43.8726, 376.936 )
+
+[node name="background2" type="Sprite" parent="."]
+position = Vector2( 1439, -178 )
+scale = Vector2( 1.32201, 1.0267 )
+texture = ExtResource( 5 )
+offset = Vector2( -43.8726, 376.936 )
+
+[node name="background5" type="Sprite" parent="."]
+position = Vector2( 2404, -160 )
+scale = Vector2( 1.32201, 1.0267 )
+texture = ExtResource( 5 )
+offset = Vector2( -43.8726, 376.936 )
+
+[node name="background3" type="Sprite" parent="."]
+position = Vector2( 466, 873 )
+scale = Vector2( 1.32201, 1.0267 )
+texture = ExtResource( 5 )
+offset = Vector2( -43.8726, 376.936 )
+
+[node name="background4" type="Sprite" parent="."]
+position = Vector2( 1394.92, 876 )
+scale = Vector2( 1.31454, 1.0267 )
+texture = ExtResource( 5 )
+offset = Vector2( -43.8726, 376.936 )
+
+[node name="background6" type="Sprite" parent="."]
+position = Vector2( 2376, 871 )
+scale = Vector2( 1.40693, 1.0267 )
+texture = ExtResource( 5 )
+offset = Vector2( -43.8726, 376.936 )
+
+[node name="Label" type="Label" parent="."]
+modulate = Color( 1, 0.027451, 0.415686, 1 )
+margin_left = 585.0
+margin_top = 40.0
+margin_right = 912.0
+margin_bottom = 142.0
+text = "TIP: Be wise when picking your character selection."
+
+[node name="Button" type="Button" parent="."]
+margin_left = 154.0
+margin_top = 324.0
+margin_right = 643.0
+margin_bottom = 429.0
+text = "
+"
+icon = ExtResource( 3 )
+icon_align = 1
+
+[node name="Panel" type="Panel" parent="."]
+visible = false
+anchor_left = 0.408
+anchor_top = 0.354
+anchor_right = 0.408
+anchor_bottom = 0.354
+margin_left = -939.096
+margin_top = -567.94
+margin_right = 1401.9
+margin_bottom = 911.06
+
+[node name="Sprite" type="Sprite" parent="."]
+position = Vector2( 524, 226 )
+scale = Vector2( 1.56565, 1.68261 )
+texture = ExtResource( 2 )
+
+[node name="Image-removebg-preview" type="Sprite" parent="."]
+position = Vector2( 531, 80 )
+scale = Vector2( 0.375821, 0.382317 )
+texture = ExtResource( 4 )
+
+[node name="Darcy" type="Sprite" parent="."]
+position = Vector2( 1092, 357 )
+texture = ExtResource( 6 )
+
+[node name="Image-removebg-preview(1)" type="Sprite" parent="."]
+position = Vector2( 219, 701 )
+texture = ExtResource( 7 )
